@@ -10,6 +10,11 @@ if ( isset($_POST['inout']) ) {
 </head>
 <body>
 Nothing here yet!
-<?php echo $_POST['inout']; ?>
+<?php
+foreach ( $_POST as $key => $value ) {
+	echo $key . "=>" . $value . "
+";
+}
+?>
 </body>
 </html>
