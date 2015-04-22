@@ -10,5 +10,6 @@ if ( isset($_POST['inout']) ) {
 </head>
 <body>
 Nothing here yet!
+<?php echo $_POST['inout']; ?>
 </body>
 </html>
