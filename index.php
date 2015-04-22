@@ -1,5 +1,5 @@
 <?php
-if ( isset($_POST['inout']) ) {
+if ( isset($_GET['inout']) ) {
 	echo '1';
 	return 0;
 }
@@ -10,11 +10,5 @@ if ( isset($_POST['inout']) ) {
 </head>
 <body>
 Nothing here yet!
-<?php
-foreach ( $_POST as $key => $value ) {
-	echo $key . "=>" . $value . "
-";
-}
-?>
 </body>
 </html>
