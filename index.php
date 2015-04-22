@@ -1,5 +1,8 @@
 <?php
-
+if ( isset($_POST['inout']) ) {
+	echo '1';
+	return 0;
+}
 ?>
 <html>
 <head>
